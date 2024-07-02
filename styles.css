@@ -330,3 +330,41 @@ main
 {
     margin: 0; 
 }
+
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home h2 {
+        font-size: 1.5rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+
+    .hero-content {
+        padding: 20px 0;
+    }
+
+    .footer-logo {
+        max-width: 50px;
+    }
+
+    .contact-info h4 {
+        font-size: 1.2rem;
+    }
+
+    .contact-info p {
+        font-size: 0.9rem;
+    }
+
+    .testimonials-container {
+        flex-direction: column;
+    }
+
+    .testimonial-item {
+        flex: 1 0 100%;
+    }
+}
