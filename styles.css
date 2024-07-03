@@ -33,36 +33,41 @@ main
 }
 .popover 
 {
-    max-width: 350px;
+    max-width: 550px;
 }
-.profile-box 
-{
+.profile-box {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
-.profile-box img 
-{
+
+.profile-box img {
     border-radius: 50%;
     width: 60px;
     height: 60px;
+    margin-right: 15px; /* Adjust as needed */
 }
-.profile-details 
-{
-    margin-left: 20px;
-    text-align: center;
+
+.profile-details {
+    flex: 1; /* Ensures details take remaining space */
+    text-align: left; /* Adjust as needed */
 }
-.profile-details p 
-{
+
+.profile-details p {
     margin: 0;
     font-size: 1rem;
 }
-.profile-details .label 
-{
+
+.profile-details .label {
     color: gray;
     font-weight: bold;
     margin-bottom: 5px;
     font-size: 0.7rem;
+}
+
+#logoutButton {
+    margin-top: 10px; /* Adjust spacing */
+    width: 100%;
 }
 .navbar span 
 {
@@ -193,7 +198,7 @@ main
 }
 #about 
 {
-    background-image: url(bkgrd.jpg);
+    background-image: url('bkgrd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -210,7 +215,7 @@ main
 }
 #products
 {
-    background-image: url(bkgrd2.png);
+    background-image: url('bkgrd2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -248,7 +253,7 @@ main
 }
 #testimonials
 {
-    background-image: url(bkgrd3.jpg);
+    background-image: url('bkgrd3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -331,40 +336,42 @@ main
     margin: 0; 
 }
 
-@media (max-width: 768px) {
-    #home h1 {
+@media (max-width: 768px) 
+{
+    #home h1 
+    {
         font-size: 2rem;
     }
-
-    #home h2 {
+    #home h2 
+    {
         font-size: 1.5rem;
     }
-
-    #home p {
+    #home p 
+    {
         font-size: 1rem;
     }
-
-    .hero-content {
+    .hero-content 
+    {
         padding: 20px 0;
     }
-
-    .footer-logo {
+    .footer-logo 
+    {
         max-width: 50px;
     }
-
-    .contact-info h4 {
+    .contact-info h4 
+    {
         font-size: 1.2rem;
     }
-
-    .contact-info p {
+    .contact-info p 
+    {
         font-size: 0.9rem;
     }
-
-    .testimonials-container {
+    .testimonials-container 
+    {
         flex-direction: column;
     }
-
-    .testimonial-item {
+    .testimonial-item 
+    {
         flex: 1 0 100%;
     }
 }
