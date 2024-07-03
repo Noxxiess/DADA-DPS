@@ -262,25 +262,15 @@
                     <img src="pfp.png" alt="Profile Picture">
                     
                     <div class="profile-details">
-                        <p>Noxie</p>
+                    <p>Noxie</p>
                         <p class="label">Username</p>
                         <p>202310194@feudiliman.edu.ph</p>
                         <p class="label">Email</p>
                     </div>
-                    
-                    <button id="logoutButton">Logout</button>
                 </div>
             `,
             html: true,
             placement: 'bottom'
-        });
-
-        document.addEventListener('click', function(event) 
-        {
-            if (event.target && event.target.id === 'logoutButton') 
-            {
-                window.location.href = 'index.html';
-            }
         });
     });
 
