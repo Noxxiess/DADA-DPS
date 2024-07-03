@@ -33,41 +33,36 @@ main
 }
 .popover 
 {
-    max-width: 550px;
+    max-width: 350px;
 }
-.profile-box {
+.profile-box 
+{
     display: flex;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
 }
-
-.profile-box img {
+.profile-box img 
+{
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    margin-right: 15px; /* Adjust as needed */
 }
-
-.profile-details {
-    flex: 1; /* Ensures details take remaining space */
-    text-align: left; /* Adjust as needed */
+.profile-details 
+{
+    margin-left: 20px;
+    text-align: center;
 }
-
-.profile-details p {
+.profile-details p 
+{
     margin: 0;
     font-size: 1rem;
 }
-
-.profile-details .label {
+.profile-details .label 
+{
     color: gray;
     font-weight: bold;
     margin-bottom: 5px;
     font-size: 0.7rem;
-}
-
-#logoutButton {
-    margin-top: 10px; /* Adjust spacing */
-    width: 100%;
 }
 .navbar span 
 {
